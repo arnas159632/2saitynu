@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="generate.xsl"?>
+<UserData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="generate.xsd">
+    <id>1</id>
+    <username>Arnas</username>
+    <password>Drevinskas</password>
+    <userPackage>
+        <id>1</id>
+        <name>Programming 101</name>
+        <price>100</price>
+        <dedicatedServers>
+            <id>1</id>
+            <hours>1</hours>
+            <teacher>Solnis</teacher>
+            <difficulty>Hard</difficulty>
+            <preparation>None</preparation>
+        </dedicatedServers>
+        <dedicatedServers>
+            <id>2</id>
+            <hours>2</hours>
+            <teacher>Petr</teacher>
+            <difficulty>Easy</difficulty>
+            <preparation>Knows python</preparation>
+        </dedicatedServers>
+        <cloudServers>
+            <id>1</id>
+            <length>2</length>
+            <hours>80</hours>
+            <difficulty>Ultra Hard</difficulty>
+        </cloudServers>
+    </userPackage>
+</UserData>
